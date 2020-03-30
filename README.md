@@ -14,6 +14,7 @@ This is a C# console application that pulls in data about New York City that res
 Clone this repository to your local machine. 
 
 $ git clone [https://github.com/suetarazi/Lab-LINQ.git]
+
 To run the program from Visual Studio:
 Select File -> Open -> Project/Solution
 
@@ -39,5 +40,5 @@ Query4
 [Image4](https://i.imgur.com/rUpxdg6.png)
 
 
-Change Log
+## Change Log
 
