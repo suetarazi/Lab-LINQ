@@ -64,7 +64,14 @@ namespace Lab_LINQ
             }   
 
             var removeBlankHoods = allNeighborhoods.Where(x => x != "");
-            
+            count = 0;
+            foreach(string neighbhorhood in removeBlankHoods)
+            {
+                count++;
+                Console.WriteLine($"{count}: { neighbhorhood}, \n");
+            }
+
+
             var filteredHoods = removeBlankHoods.Distinct();
             count = 0;
 
