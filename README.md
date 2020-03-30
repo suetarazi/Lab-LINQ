@@ -1,16 +1,19 @@
 # Lab-LINQ
+Author: Sue Tarazi
 
-Lab01-Exception-Handling
+## Description
 
-Author: Harry Potter
+This is a C# console application that pulls in data about New York City that resides in an external JSON file. The file is first 1. connected to the C# application. Then employing the tools of Newtonsoft, the JSON file is deserialized and converted into classes in C#.  Finally, the following queries are run on the data using LINQ:
 
-Description
-[Tell me about your application, should be about a paragraph] This is a C# console application that will ask a user several questions about me, the developer. There are multiple question types ranging from inputting a number to True or False. At the end of the game the user receives their total score.
+1. Output all of the neighborhoods in this data list (Final Total: 147 neighborhoods)
+1. Filter out all the neighborhoods that do not have any names (Final Total: 143)
+1. Remove the duplicates (Final Total: 39 neighborho#ds1. Rewrite the queries from above and consolidate all into one single query.
+1. Rewrite at least one of these questions only using the opposing method 
 
 Getting Started
-Clone this repository to your local machine.
+Clone this repository to your local machine. 
 
-$ git clone [repo clone url here]
+$ git clone []
 To run the program from Visual Studio:
 Select File -> Open -> Project/Solution
 
