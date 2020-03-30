@@ -89,6 +89,16 @@ namespace Lab_LINQ
                     Console.WriteLine($"{count}: { neighborhood}, \n");
                 }
             }
+
+            var oneQuery = allNeighborhoods.Where(x => x != "").Distinct();
+            count = 0;
+            foreach(string neighborhood in oneQuery)
+            {
+                count++;
+                Console.WriteLine($"{count}: { neighborhood}, \n");
+            }
+
+        
         }
     
     }
