@@ -26,11 +26,14 @@ Then select and open AboutMe.sln
 ## Visuals
 [Add screenshots of your application in action]
 
-Application Start
+Query1
 [Image 1](https://i.imgur.com/Ojdb92L.png)
 
-Using the Application
-[Image 2](https://i.imgur.com/VCRfYYW.png)
+Query2
+[Image2](https://i.imgur.com/3I2AmQz.png)
+
+Query3
+[Image 3](https://i.imgur.com/VCRfYYW.png)
 
 Application End
 Image 1
