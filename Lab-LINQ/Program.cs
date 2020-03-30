@@ -98,7 +98,19 @@ namespace Lab_LINQ
                 Console.WriteLine($"{count}: { neighborhood}, \n");
             }
 
-        
+
+            var otherMethod =
+                (from item in rootObject.features 
+                where item.properties.neighborhood != ("")
+                select item.properties.neighborhood).Distinct();
+
+            count = 0;
+            foreach (string Neighborhood in otherMethod)
+            {
+                count++;
+                Console.WriteLine($"{count}: { Neighborhood}");
+            }
+
         }
     
     }
