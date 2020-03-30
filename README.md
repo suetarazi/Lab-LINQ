@@ -23,14 +23,14 @@ Double click on the Lab01-About-Me directory.
 
 Then select and open AboutMe.sln
 
-Visuals
+## Visuals
 [Add screenshots of your application in action]
 
 Application Start
-Image 1
+[Image 1](https://i.imgur.com/Ojdb92L.png)
 
 Using the Application
-Image 1
+[Image 2](https://i.imgur.com/VCRfYYW.png)
 
 Application End
 Image 1
