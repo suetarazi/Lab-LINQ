@@ -20,7 +20,7 @@ namespace Lab_LINQ
 
             try
             {
-                String nyData = @"/Users/Sue Machtley/source/repos/Lab-LINQ/Lab-LINQ/data.json";
+                String nyData = "../../../data.json";
 
                 JObject JsonObject = CreateJObject(nyData);
                 RootObject rootObject = new RootObject();
